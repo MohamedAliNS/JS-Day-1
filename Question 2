@@ -16,3 +16,8 @@ Binary framing layer transfer data by segmenting into smaller packets.
 Single tcp connection established to transfer data between client and server.
 Multiplexing resolves head of line blocking by concurrent messages. Thus it makes efficient method of transfering data.
 Data is priortised based on weight in stream prioritization. 
+
+
+
+
+

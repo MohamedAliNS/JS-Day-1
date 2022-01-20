@@ -4,4 +4,15 @@ Http 1.1 released in 1997.
 Http 1.1 communicate in plain text format between client request and server response.
 Http 1.1, client never receives response resources from web server in a single time. 
 It takes many requests and responses between client and server to get whole content displayed in web browser.
+Multiple data cannot be pass each other due to same destination. So request at the head of queue cannot retrive its resource and block resources behind it. 
+Multiple time tcp connections established to transfer data between client and server.
 
+Http 2:
+Http 2 released in 2015.
+Top browsers such as chrome, safari, internet explorer supported this standardzation effort.
+Data encapsulated by using binary framing layer in all requests and responses in binary format.
+It decrease web page load latency by techniques such as multiplexing, compression, prioritization.
+Binary framing layer transfer data by segmenting into smaller packets.
+Single tcp connection established to transfer data between client and server.
+Multiplexing resolves head of line blocking by concurrent messages. Thus it makes efficient method of transfering data.
+Data is priortised based on weight in stream prioritization. 

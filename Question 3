@@ -1,1 +1,44 @@
 Write a blog about objects and its internal representation in Javascript ?
+Objects:
+A Javascript object is a collection of named values. It is an user defined complex data type.
+Syntax: 
+Variable keyword object name = { 
+    name: "value"
+};
+Example:
+let student = {
+    name: "Raja",
+    college: "Anna University",
+    department: "CSE",
+    id: 20221001,
+}
+console.log(student);
+Output:
+{
+  name: 'Raja',
+  college: 'Anna University',
+  department: 'CSE',
+  id: 20221001
+}
+
+Object Properties:
+The named values in javascript objects are called Properties.
+Property     value
+name         John
+age          40
+gender       male
+profession   engineer
+
+Object Methods:
+An object method is an object property containing function definition.
+Property     value
+name         John
+age          40
+gender       male
+profession   engineer
+fullName     function() {return this.firstName + " " + this.lastName;}
+
+
+
+
+

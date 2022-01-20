@@ -1,4 +1,7 @@
-Write a blog on Difference between HTTP1.1 vs HTTP2
+Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+Http 1.1:
 Http 1.1 released in 1997.
 Http 1.1 communicate in plain text format between client request and server response.
-Http 1.1 
+Http 1.1, client never receives response resources from web server in a single time. 
+It takes many requests and responses between client and server to get whole content displayed in web browser.
+

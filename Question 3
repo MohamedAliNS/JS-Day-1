@@ -38,6 +38,25 @@ gender       male
 profession   engineer
 fullName     function() {return this.firstName + " " + this.lastName;}
 
+For in looping statement is used only for objects. 
+Syntax: for (variable in object)
+let employee={
+    name:"Raja",
+    companyName:"TCS",
+    department:"Human Resources",
+    designation:"Recruiter",
+    employeeId:"200811",
+};
+for (let i in employee){
+    console.log(i,employee[i]);
+}
+Output:
+name Raja
+companyName TCS
+department Human Resources
+designation Recruiter     
+employeeId 200811
+
 
 
 
